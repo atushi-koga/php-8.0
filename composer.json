@@ -18,6 +18,9 @@
     "scripts": {
         "phpstan": [
             "@php vendor/bin/phpstan analyse --debug --memory-limit=-1 --ansi -c ./phpstan.neon"
+        ],
+        "phpunit": [
+            "@php ./vendor/bin/phpunit ./tests/ --colors"
         ]
     }
 }

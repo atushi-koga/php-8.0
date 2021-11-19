@@ -6,3 +6,6 @@ run:
 
 phpstan:
 	docker exec my-php-fpm /bin/sh -c "cd /var/www/src && php composer.phar --ansi phpstan"
+
+phpunit:
+	docker exec my-php-fpm /bin/sh -c "cd /var/www/src && php composer.phar --ansi phpunit"

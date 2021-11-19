@@ -11,5 +11,9 @@
             "email": "koga@wh-plus.com"
         }
     ],
-    "require": {}
+    "require": {
+    },
+    "require-dev": {
+        "phpstan/phpstan": "1.2"
+    }
 }

@@ -1,0 +1,15 @@
+{
+    "name": "koga/php-8.0",
+    "autoload": {
+        "psr-4": {
+            "Php80\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "koga",
+            "email": "koga@wh-plus.com"
+        }
+    ],
+    "require": {}
+}
